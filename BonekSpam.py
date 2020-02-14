@@ -90,7 +90,7 @@ while True:
 	try:
 		os.system('clear')
 		print("""
-		   [  Spam Otp  ]
+		   [  Spam Sms  ]
 		 - By Cyberk4nd4S -
               ⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤
               ⣿⠀⠀⣿⢱⣾⠉⣿⢱⢾⠑⣾⠉⣿⢱⣾⢱⡇⣿⣾⢱⠀⠀⣿
@@ -117,8 +117,8 @@ while True:
 	""")
 		pil=int(input("> Pilih: "))
 		print("="*25)
-		num=input("[?] Nomor Tujuan: ")
-		lop=int(input("[?] Looping: "))
+		num=input("[?] Isi Nomor Tujuan Cok! : ")
+		lop=int(input("[?] Isi Total Spam Cok!: "))
 		print()
 
 		main=docter()
