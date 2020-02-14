@@ -117,7 +117,7 @@ while True:
 	""")
 		pil=int(input("> Pilih: "))
 		print("="*25)
-		num=input("[?] Isi Nomor Tujuan Cok! : ")
+		num=input("[?] Isi Nomor Tujuan Cok!: ")
 		lop=int(input("[?] Isi Total Spam Cok!: "))
 		print()
 
