@@ -90,8 +90,26 @@ while True:
 	try:
 		os.system('clear')
 		print("""
-		[ Tanya Dokter OTP ]
+		   [  Spam Otp  ]
 		 - By Cyberk4nd4S -
+              ⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤
+              ⣿⠀⠀⣿⢱⣾⠉⣿⢱⢾⠑⣾⠉⣿⢱⣾⢱⡇⣿⣾⢱⠀⠀⣿
+              ⣿⠀⠀⣿⠁⣿⣉⣿⢱⢄⡷⣿⣉⣿⡱⣿⢹⢌⡿⣿⢹⠀⠀⣿
+              ⣿⢛⢛⢛⢛⢛⢛⢛⢛⢛⢛⡛⢛⡛⡛⡛⡛⡛⡛⡛⡛⡛⡛⣿
+              ⣿⡸⣿⣿⣿⣿⣿⣿⣿⣿⠟⣐⣂⠻⣿⣿⣿⣿⣿⡫⣵⣿⢇⣿
+              ⣿⡸⣿⣿⣷⡀⢙⠋⠉⠉⢹⡰⢆⡏⠜⠜⠴⠋⡪⣪⣿⣿⢇⣿
+              ⣿⡸⣿⣿⠋⢕⠀⠅⡠⠄⣼⡰⢆⣧⢢⢢⢤⡀⡪⣾⣿⣿⢇⣿
+              ⣿⡸⡈⢫⠀⢕⠀⠅⣴⣶⣾⡰⢆⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿
+              ⣿⡸⣇⠀⠀⠀⠀⠑⣿⣿⣿⡰⢆⣿⢦⣉⠩⠉⠙⢿⣿⣿⢇⣿
+              ⣿⡸⣿⣷⡪⠀⠀⡀⠹⣿⡟⡰⢆⢻⣶⣦⣀⡀⠀⡀⠻⢻⢇⣿
+              ⣿⡸⣿⣿⣿⣦⡑⢄⡀⠙⡏⡰⢆⢹⣿⣧⡈⠃⠀⢄⠀⣸⢇⣿
+              ⣿⡸⣿⣿⣿⣿⣿⣿⣿⣿⡏⡰⢆⢹⣿⡿⣷⡤⠀⡑⠀⣿⢇⣿
+              ⢿⣸⣿⣿⣿⣿⡿⠟⠛⠛⡏⡰⢆⢹⠛⠁⡀⠔⠁⠀⣼⣿⣇⡿
+              ⠹⣆⢻⣿⡿⠡⣐⣈⣈⣈⡗⣒⣒⢺⠀⠁⠀⣀⣠⣾⣿⡟⣸⠏
+              ⠀⢻⣄⢿⣇⣼⣿⣿⣿⢟⠜⣭⠉⣣⡻⣅⠚⢿⣿⣿⡿⣠⡟⠀
+              ⠀⠀⠹⣦⠹⢿⣿⠋⠬⢭⠛⣤⠛⣤⡭⠥⠙⣾⡿⠏⣴⠏⠀⠀
+⠀             ⠀ ⠀⠀⠻⣦⣌⠙⠛⠿⢷⣤⣭⡾⠿⠛⠋⣡⣴⠟⠀⠀⠀⠀
+⠀⠀⠀           ⠀   ⠀⠀⠉⠛⠻⢶⣦⣤⣤⣴⡶⠟⠛⠉⠀⠀⠀⠀⠀⠀
 [ Spam List ]
 1. Alodokter.com
 2. Klikdokter.com
@@ -99,7 +117,7 @@ while True:
 	""")
 		pil=int(input("> Pilih: "))
 		print("="*25)
-		num=input("[?] Nomor Target: ")
+		num=input("[?] Nomor Tujuan: ")
 		lop=int(input("[?] Looping: "))
 		print()
 
@@ -116,7 +134,7 @@ while True:
 		else:
 			print("?: Anda Buta!?")
 
-		lgi=input("\n[?] Coba lagi (Y/n) ")
+		lgi=input("\n[?] Mau Coba Lagi (Y/n) ")
 		if lgi.lower() == 'n':
 			sys.exit('GOODBYE :*')
 	except Exception as Err:
