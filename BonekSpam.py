@@ -24,9 +24,9 @@ class docter:
 		req2=self.ses.post('https://www.alodokter.com/login-with-phone-number',headers=head,json={"user":{"phone":num}})
 #		print(req2.json())
 		if req2.json()['status'] == 'success':
-			print("[•] Berhasil")
+			print("[•] Spam Sukses Cok")
 		else:
-			print("[-] Gagal")
+			print("[-] Gagal Cok")
 
 	def klikdok(self,num):
 		req1=self.ses.get('https://m.klikdokter.com/users/create')
@@ -56,9 +56,9 @@ class docter:
 		req2=self.ses.post('https://m.klikdokter.com/users/check',headers=head,data=ata)
 #		print(req2.url)
 		if "sessions/auth?user=" in req2.url:
-			print("[•] Berhasil")
+			print("[•] Spam Sukses Cok ")
 		else:
-			print("[-] Gagal")
+			print("[-] Gagal Cok")
 
 	def prosehat(self,num):
 		head={
@@ -74,13 +74,13 @@ class docter:
 		req=requests.post('https://www.prosehat.com/wp-admin/admin-ajax.php',data=ata,headers=head)
 #		print(req.text)
 		if "token" in req.text:
-			print("[•] Berhasil")
+			print("[•] Spam Sukses Cok")
 			for x in range(60):
 				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
 				time.sleep(1)
 			print()
 		else:
-			print(f"[-] Gagal {req.text}")
+			print(f"[-] Gagal Cok {req.text}")
 			for x in range(60):
 				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
 				time.sleep(1)
