@@ -117,8 +117,8 @@ while True:
 	""")
 		pil=int(input("> Pilih: "))
 		print("="*25)
-		num=input("[?] Isi Nomor Tujuan Cok!: ")
-		lop=int(input("[?] Isi Total Spam Cok!: "))
+		num=input("[▄︻̷̿┻̿═━一] Isi Nomor Tujuan Cok!: ")
+		lop=int(input("[▄︻̷̿┻̿═━一] Isi Total Spam Cok!: "))
 		print()
 
 		main=docter()
@@ -134,7 +134,7 @@ while True:
 		else:
 			print("?: Anda Buta!?")
 
-		lgi=input("\n[?] Mau Coba Lagi (Y/n) ")
+		lgi=input("\n Mau Coba Lagi? (Y/n) ")
 		if lgi.lower() == 'n':
 			sys.exit('GOODBYE :*')
 	except Exception as Err:
