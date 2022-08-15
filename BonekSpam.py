@@ -53,7 +53,7 @@ class docter:
 			'submit':'Daftar',
 		}
 
-		req2=self.ses.post('https://www.matahari.com/register)
+		req2=self.ses.post('https://thor.matahari.com/MatahariMobileAPI/register)
 #		print(req2.url)
 		if "sessions/auth?user=" in req2.url:
 			print("[•] Spam Sukses Cok ")
@@ -100,7 +100,7 @@ while True:
 
 [ Spam List ]
 1. Alodokter.com
-2. Klikdokter.com
+2. Matahari.com
 3. Prosehat.com
 	""")
 		pil=int(input("> Pilih: "))
