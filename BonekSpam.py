@@ -75,14 +75,14 @@ class docter:
 #		print(req.text)
 		if "token" in req.text:
 			print("[•] Spam Sukses Cok")
-			for x in range(60):
+			for x in range(5):
 				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
 				time.sleep(1)
 			print()
 		else:
 			print(f"[-] Gagal Cok {req.text}")
-			for x in range(60):
-				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
+			for x in range(5):
+				print(end=f"\r>> Sleep {5-(x+1)}s << ",flush=True)
 				time.sleep(1)
 			print()
 
