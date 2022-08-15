@@ -37,12 +37,12 @@ class docter:
 		head={
 			'Connection': 'keep-alive',
 			'Cache-Control': 'max-age=0',
-			'Origin': 'https://m.klikdokter.com',
+			'Origin': 'https://www.matahari.com',
 			'Upgrade-Insecure-Requests': '1',
 			'Content-Type': 'application/x-www-form-urlencoded',
 			'User-Agent': 'Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36',
 			'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-			'Referer': 'https://m.klikdokter.com/users/create?back-to=',
+			'Referer': 'https://www.matahari.com/register',
 		}
 		ata={
 			'_token':token,
@@ -53,7 +53,7 @@ class docter:
 			'submit':'Daftar',
 		}
 
-		req2=self.ses.post('https://m.klikdokter.com/users/check',headers=head,data=ata)
+		req2=self.ses.post('https://www.matahari.com/register)
 #		print(req2.url)
 		if "sessions/auth?user=" in req2.url:
 			print("[•] Spam Sukses Cok ")
